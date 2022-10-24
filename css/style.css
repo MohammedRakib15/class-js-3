@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#edd900,#ed7e00);
+    }
+#contact{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #0c455d;
+    padding: 50px;
+    border-radius: 20px;
+    
+}
+#contact input[type="email"]{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: black;
+    width: 100%;
+}
+#contact .password {
+    width: 100%;
+    background-color: white;
+    padding-right: 11px;
+
+}
+#contact .password #password{
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: black;
+    float: left;
+}
+#contact .password #password_eye {
+        padding: 10px;
+        width: 8%;
+}
+#contact button[type="submit"] {
+    color: yellow;
+    font-size: 20px;
+    background-color: black;
+    padding: 10px 25px;
+}
